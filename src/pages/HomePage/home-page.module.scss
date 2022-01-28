@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.shift {
+  display: flex;
+  justify-content: end;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
